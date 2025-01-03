@@ -22,5 +22,5 @@ Now run it with $ python mybletest.py
 
 In order to leave the venv just type "deactivate".
 
-#FAQ:
+# FAQ:
 For nRF5340DK you need to have /bluetooth/peripheral on CPUAPP and /bluetooth/hci_icp running on CPUNET.
