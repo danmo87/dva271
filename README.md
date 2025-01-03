@@ -19,3 +19,8 @@ $ sudo systemctl start bluetooth
 $ bluetoothctl power on OR $ btmgmt power on
 
 Now run it with $ python mybletest.py
+
+In order to leave the venv just type "deactivate".
+
+#FAQ:
+For nRF5340DK you need to have /bluetooth/peripheral on CPUAPP and /bluetooth/hci_icp running on CPUNET.
