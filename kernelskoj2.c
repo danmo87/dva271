@@ -117,6 +117,6 @@ static void __exit destruct(void) {
 
 module_init(construct);
 module_exit(destruct);
-/* Obligatorisk GPL licens för allt relaterat till kerneln, även om vi skapar för eget bruk */
+
 MODULE_LICENSE("GPL");
 
